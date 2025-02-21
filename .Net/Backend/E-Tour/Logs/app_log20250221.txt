@@ -1,0 +1,241 @@
+2025-02-21 20:22:04.705 +05:30 [INF] User profile is available. Using 'C:\Users\sujee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-21 20:22:05.534 +05:30 [INF] Now listening on: http://localhost:8086
+2025-02-21 20:22:05.937 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-21 20:22:06.133 +05:30 [INF] Hosting environment: Development
+2025-02-21 20:22:06.184 +05:30 [INF] Content root path: D:\E-Tour-main\.Net\Backend\E-Tour
+2025-02-21 20:22:07.904 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/swagger/index.html - null null
+2025-02-21 20:22:11.300 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-21 20:22:11.506 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 214.2935 ms
+2025-02-21 20:22:11.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-21 20:22:11.606 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/_vs/browserLink - null null
+2025-02-21 20:22:11.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/swagger/index.html - 200 null text/html;charset=utf-8 3928.3002ms
+2025-02-21 20:22:11.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 282.2687ms
+2025-02-21 20:22:11.998 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/_vs/browserLink - 200 null text/javascript; charset=UTF-8 391.8573ms
+2025-02-21 20:22:12.067 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/swagger/v1/swagger.json - null null
+2025-02-21 20:22:12.242 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 159.5980 ms
+2025-02-21 20:22:12.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.2422ms
+2025-02-21 20:23:24.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api - null null
+2025-02-21 20:23:24.832 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-21 20:23:25.159 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:25.462 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:25.718 +05:30 [INF] Route matched with {action = "GetAllCategories", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Categorymaster]]] GetAllCategories() on controller E_Tour.Controllers.HomeController (E-Tour).
+2025-02-21 20:23:29.090 +05:30 [INF] Executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:34.776 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`categoryid`, `c`.`categoryImagePath`, `c`.`Category_Name`, `c`.`Flag`, `c`.`subcategoryid`
+FROM `categorymaster` AS `c`
+2025-02-21 20:23:35.061 +05:30 [INF] Finished executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:35.095 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Categorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:35.140 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api - null null
+2025-02-21 20:23:35.161 +05:30 [INF] Executed action E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in 9392.1422ms
+2025-02-21 20:23:35.222 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:35.227 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:35.229 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:35.237 +05:30 [INF] HTTP GET /api responded 200 in 10406.9451 ms
+2025-02-21 20:23:35.252 +05:30 [INF] Route matched with {action = "GetAllCategories", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Categorymaster]]] GetAllCategories() on controller E_Tour.Controllers.HomeController (E-Tour).
+2025-02-21 20:23:35.312 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api - 200 null application/json; charset=utf-8 10541.2739ms
+2025-02-21 20:23:35.352 +05:30 [INF] Executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:35.475 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`categoryid`, `c`.`categoryImagePath`, `c`.`Category_Name`, `c`.`Flag`, `c`.`subcategoryid`
+FROM `categorymaster` AS `c`
+2025-02-21 20:23:35.505 +05:30 [INF] Finished executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:35.512 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Categorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:35.522 +05:30 [INF] Executed action E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in 222.473ms
+2025-02-21 20:23:35.526 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:35.531 +05:30 [INF] HTTP GET /api responded 200 in 314.5502 ms
+2025-02-21 20:23:35.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api - 200 null application/json; charset=utf-8 403.0676ms
+2025-02-21 20:23:36.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1 - null null
+2025-02-21 20:23:36.611 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:36.649 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:23:36.734 +05:30 [INF] Route matched with {action = "GetAllSubCategories", controller = "SubCategory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Subcategorymaster]]] GetAllSubCategories(Int32) on controller E_Tour.Controllers.SubCategoryController (E-Tour).
+2025-02-21 20:23:36.844 +05:30 [INF] Executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:23:37.590 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[@__catMasterId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`subCatMasterId`, `s`.`catMasterId`, `s`.`flag`, `s`.`subCatId`, `s`.`subCatImagePath`, `s`.`subCatName`
+FROM `subcategorymaster` AS `s`
+WHERE `s`.`catMasterId` = @__catMasterId_0
+2025-02-21 20:23:37.641 +05:30 [INF] Finished executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:23:37.645 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Subcategorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:37.672 +05:30 [INF] Executed action E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in 881.0555ms
+2025-02-21 20:23:37.681 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:23:37.683 +05:30 [INF] HTTP GET /api/subcategory/1 responded 200 in 1081.4013 ms
+2025-02-21 20:23:37.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1 - 200 null application/json; charset=utf-8 1247.601ms
+2025-02-21 20:23:42.661 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api - null null
+2025-02-21 20:23:42.726 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:42.730 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:42.734 +05:30 [INF] Route matched with {action = "GetAllCategories", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Categorymaster]]] GetAllCategories() on controller E_Tour.Controllers.HomeController (E-Tour).
+2025-02-21 20:23:42.752 +05:30 [INF] Executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:42.782 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`categoryid`, `c`.`categoryImagePath`, `c`.`Category_Name`, `c`.`Flag`, `c`.`subcategoryid`
+FROM `categorymaster` AS `c`
+2025-02-21 20:23:42.805 +05:30 [INF] Finished executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:42.820 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Categorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:42.846 +05:30 [INF] Executed action E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in 102.2756ms
+2025-02-21 20:23:42.884 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:42.900 +05:30 [INF] HTTP GET /api responded 200 in 173.6898 ms
+2025-02-21 20:23:42.911 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api - 200 null application/json; charset=utf-8 250.4611ms
+2025-02-21 20:23:47.555 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/3 - null null
+2025-02-21 20:23:47.649 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:47.655 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:23:47.658 +05:30 [INF] Route matched with {action = "GetAllSubCategories", controller = "SubCategory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Subcategorymaster]]] GetAllSubCategories(Int32) on controller E_Tour.Controllers.SubCategoryController (E-Tour).
+2025-02-21 20:23:47.698 +05:30 [INF] Executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:23:47.880 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__catMasterId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`subCatMasterId`, `s`.`catMasterId`, `s`.`flag`, `s`.`subCatId`, `s`.`subCatImagePath`, `s`.`subCatName`
+FROM `subcategorymaster` AS `s`
+WHERE `s`.`catMasterId` = @__catMasterId_0
+2025-02-21 20:23:47.903 +05:30 [INF] Finished executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:23:47.911 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Subcategorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:47.986 +05:30 [INF] Executed action E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in 293.0997ms
+2025-02-21 20:23:47.992 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:23:48.058 +05:30 [INF] HTTP GET /api/subcategory/3 responded 200 in 411.9546 ms
+2025-02-21 20:23:48.094 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/3 - 200 null application/json; charset=utf-8 539.5664ms
+2025-02-21 20:23:51.631 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours - null null
+2025-02-21 20:23:51.865 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:51.872 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ToursController.GetAllTours (E-Tour)'
+2025-02-21 20:23:51.885 +05:30 [INF] Route matched with {action = "GetAllTours", controller = "Tours"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.DTO.ToursDTO]]] GetAllTours(Int32) on controller E_Tour.Controllers.ToursController (E-Tour).
+2025-02-21 20:23:51.894 +05:30 [INF] Executing method: E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in ToursController
+2025-02-21 20:23:52.008 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@__subcategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`tourid` AS `tourId`, `t`.`tourname` AS `tourName`, `t`.`durationDays`, `t`.`durationNights`, `t`.`imageurl` AS `imageUrl`, `t`.`subcategoryMaster` AS `SubcategoryMaster`
+FROM `tours` AS `t`
+WHERE `t`.`subcategoryMaster` = @__subcategoryId_0
+2025-02-21 20:23:52.109 +05:30 [INF] Finished executing method: E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in ToursController
+2025-02-21 20:23:52.112 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.DTO.ToursDTO, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:52.119 +05:30 [INF] Executed action E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in 226.9793ms
+2025-02-21 20:23:52.125 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ToursController.GetAllTours (E-Tour)'
+2025-02-21 20:23:52.127 +05:30 [INF] HTTP GET /api/subcategory/9/tours responded 200 in 262.9012 ms
+2025-02-21 20:23:52.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours - 200 null application/json; charset=utf-8 500.9269ms
+2025-02-21 20:23:54.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours/17/departures - null null
+2025-02-21 20:23:54.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours/17/itenary?lang=en - null null
+2025-02-21 20:23:54.139 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:54.151 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour)'
+2025-02-21 20:23:54.148 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:54.158 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour)'
+2025-02-21 20:23:54.163 +05:30 [INF] Route matched with {action = "GetDepartureDatesByTourId", controller = "Itenary"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]]] GetDepartureDatesByTourIdAsync(Int32) on controller E_Tour.Controllers.ItenaryController (E-Tour).
+2025-02-21 20:23:54.168 +05:30 [INF] Route matched with {action = "GetItenaryByTourId", controller = "Itenary"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetItenaryByTourId(Int32, System.String) on controller E_Tour.Controllers.ItenaryController (E-Tour).
+2025-02-21 20:23:54.176 +05:30 [INF] Executing method: E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in ItenaryController
+2025-02-21 20:23:54.203 +05:30 [INF] Executing method: E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in ItenaryController
+2025-02-21 20:23:54.239 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__tourid_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`startdate` AS `Startdate`, `d`.`enddate` AS `Enddate`
+FROM `departuredates` AS `d`
+WHERE `d`.`tour_id` = @__tourid_0
+2025-02-21 20:23:54.247 +05:30 [INF] Finished executing method: E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in ItenaryController
+2025-02-21 20:23:54.257 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-21 20:23:54.262 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__tourid_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`ItenaryId`, `i`.`dayNo`, `i`.`detailsEs`, `i`.`detailsFr`, `i`.`detailsHi`, `i`.`detailsMr`, `i`.`images`, `i`.`tour_id`, `i`.`description`
+FROM `itenarymaster` AS `i`
+WHERE `i`.`tour_id` = @__tourid_0
+2025-02-21 20:23:54.302 +05:30 [INF] Executed action E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in 128.3711ms
+2025-02-21 20:23:54.329 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour)'
+2025-02-21 20:23:54.329 +05:30 [INF] Finished executing method: E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in ItenaryController
+2025-02-21 20:23:54.331 +05:30 [INF] HTTP GET /api/subcategory/9/tours/17/departures responded 200 in 193.1715 ms
+2025-02-21 20:23:54.342 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.DTO.ItenaryDto, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:54.354 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours/17/departures - 200 null application/json; charset=utf-8 224.3297ms
+2025-02-21 20:23:54.361 +05:30 [INF] Executed action E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in 182.7751ms
+2025-02-21 20:23:54.388 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour)'
+2025-02-21 20:23:54.391 +05:30 [INF] HTTP GET /api/subcategory/9/tours/17/itenary responded 200 in 244.4736 ms
+2025-02-21 20:23:54.396 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/9/tours/17/itenary?lang=en - 200 null application/json; charset=utf-8 274.9535ms
+2025-02-21 20:23:59.426 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api - null null
+2025-02-21 20:23:59.472 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:23:59.473 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:59.475 +05:30 [INF] Route matched with {action = "GetAllCategories", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Categorymaster]]] GetAllCategories() on controller E_Tour.Controllers.HomeController (E-Tour).
+2025-02-21 20:23:59.483 +05:30 [INF] Executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:59.499 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`categoryid`, `c`.`categoryImagePath`, `c`.`Category_Name`, `c`.`Flag`, `c`.`subcategoryid`
+FROM `categorymaster` AS `c`
+2025-02-21 20:23:59.506 +05:30 [INF] Finished executing method: E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in HomeController
+2025-02-21 20:23:59.509 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Categorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:23:59.527 +05:30 [INF] Executed action E_Tour.Controllers.HomeController.GetAllCategories (E-Tour) in 45.5476ms
+2025-02-21 20:23:59.534 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.HomeController.GetAllCategories (E-Tour)'
+2025-02-21 20:23:59.536 +05:30 [INF] HTTP GET /api responded 200 in 64.4723 ms
+2025-02-21 20:23:59.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api - 200 null application/json; charset=utf-8 114.7061ms
+2025-02-21 20:24:04.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1 - null null
+2025-02-21 20:24:04.384 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:04.386 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:24:04.389 +05:30 [INF] Route matched with {action = "GetAllSubCategories", controller = "SubCategory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.Models.Subcategorymaster]]] GetAllSubCategories(Int32) on controller E_Tour.Controllers.SubCategoryController (E-Tour).
+2025-02-21 20:24:04.402 +05:30 [INF] Executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:24:04.419 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__catMasterId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `s`.`subCatMasterId`, `s`.`catMasterId`, `s`.`flag`, `s`.`subCatId`, `s`.`subCatImagePath`, `s`.`subCatName`
+FROM `subcategorymaster` AS `s`
+WHERE `s`.`catMasterId` = @__catMasterId_0
+2025-02-21 20:24:04.426 +05:30 [INF] Finished executing method: E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in SubCategoryController
+2025-02-21 20:24:04.433 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.Models.Subcategorymaster, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:24:04.437 +05:30 [INF] Executed action E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour) in 42.1712ms
+2025-02-21 20:24:04.441 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.SubCategoryController.GetAllSubCategories (E-Tour)'
+2025-02-21 20:24:04.443 +05:30 [INF] HTTP GET /api/subcategory/1 responded 200 in 59.6816 ms
+2025-02-21 20:24:04.450 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1 - 200 null application/json; charset=utf-8 81.8539ms
+2025-02-21 20:24:06.258 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours - null null
+2025-02-21 20:24:06.284 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:06.287 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ToursController.GetAllTours (E-Tour)'
+2025-02-21 20:24:06.289 +05:30 [INF] Route matched with {action = "GetAllTours", controller = "Tours"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[E_Tour.DTO.ToursDTO]]] GetAllTours(Int32) on controller E_Tour.Controllers.ToursController (E-Tour).
+2025-02-21 20:24:06.302 +05:30 [INF] Executing method: E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in ToursController
+2025-02-21 20:24:06.314 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__subcategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`tourid` AS `tourId`, `t`.`tourname` AS `tourName`, `t`.`durationDays`, `t`.`durationNights`, `t`.`imageurl` AS `imageUrl`, `t`.`subcategoryMaster` AS `SubcategoryMaster`
+FROM `tours` AS `t`
+WHERE `t`.`subcategoryMaster` = @__subcategoryId_0
+2025-02-21 20:24:06.323 +05:30 [INF] Finished executing method: E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in ToursController
+2025-02-21 20:24:06.328 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.DTO.ToursDTO, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:24:06.333 +05:30 [INF] Executed action E_Tour.Controllers.ToursController.GetAllTours (E-Tour) in 32.2001ms
+2025-02-21 20:24:06.336 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ToursController.GetAllTours (E-Tour)'
+2025-02-21 20:24:06.338 +05:30 [INF] HTTP GET /api/subcategory/1/tours responded 200 in 54.5572 ms
+2025-02-21 20:24:06.342 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours - 200 null application/json; charset=utf-8 84.4383ms
+2025-02-21 20:24:08.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/itenary?lang=en - null null
+2025-02-21 20:24:08.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/departures - null null
+2025-02-21 20:24:08.174 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:08.186 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:08.195 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour)'
+2025-02-21 20:24:08.201 +05:30 [INF] Executing endpoint 'E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour)'
+2025-02-21 20:24:08.204 +05:30 [INF] Route matched with {action = "GetItenaryByTourId", controller = "Itenary"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetItenaryByTourId(Int32, System.String) on controller E_Tour.Controllers.ItenaryController (E-Tour).
+2025-02-21 20:24:08.206 +05:30 [INF] Route matched with {action = "GetDepartureDatesByTourId", controller = "Itenary"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.String]]] GetDepartureDatesByTourIdAsync(Int32) on controller E_Tour.Controllers.ItenaryController (E-Tour).
+2025-02-21 20:24:08.227 +05:30 [INF] Executing method: E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in ItenaryController
+2025-02-21 20:24:08.237 +05:30 [INF] Executing method: E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in ItenaryController
+2025-02-21 20:24:08.257 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__tourid_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `i`.`ItenaryId`, `i`.`dayNo`, `i`.`detailsEs`, `i`.`detailsFr`, `i`.`detailsHi`, `i`.`detailsMr`, `i`.`images`, `i`.`tour_id`, `i`.`description`
+FROM `itenarymaster` AS `i`
+WHERE `i`.`tour_id` = @__tourid_0
+2025-02-21 20:24:08.333 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__tourid_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`startdate` AS `Startdate`, `d`.`enddate` AS `Enddate`
+FROM `departuredates` AS `d`
+WHERE `d`.`tour_id` = @__tourid_0
+2025-02-21 20:24:08.351 +05:30 [INF] Finished executing method: E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in ItenaryController
+2025-02-21 20:24:08.354 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[E_Tour.DTO.ItenaryDto, E-Tour, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-21 20:24:08.357 +05:30 [INF] Finished executing method: E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in ItenaryController
+2025-02-21 20:24:08.359 +05:30 [INF] Executed action E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour) in 141.449ms
+2025-02-21 20:24:08.361 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-21 20:24:08.367 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ItenaryController.GetItenaryByTourId (E-Tour)'
+2025-02-21 20:24:08.370 +05:30 [INF] Executed action E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour) in 135.0365ms
+2025-02-21 20:24:08.373 +05:30 [INF] HTTP GET /api/subcategory/1/tours/1/itenary responded 200 in 199.0183 ms
+2025-02-21 20:24:08.377 +05:30 [INF] Executed endpoint 'E_Tour.Controllers.ItenaryController.GetDepartureDatesByTourIdAsync (E-Tour)'
+2025-02-21 20:24:08.387 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/itenary?lang=en - 200 null application/json; charset=utf-8 243.0339ms
+2025-02-21 20:24:08.389 +05:30 [INF] HTTP GET /api/subcategory/1/tours/1/departures responded 200 in 203.3257 ms
+2025-02-21 20:24:08.408 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/departures - 200 null application/json; charset=utf-8 263.7115ms
+2025-02-21 20:24:20.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/customers/check/revankarsujeet@gmail.com - null null
+2025-02-21 20:24:20.682 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:20.686 +05:30 [INF] Executing endpoint 'Etour.Controllers.CustomerController.GetCustomerDetails (E-Tour)'
+2025-02-21 20:24:20.705 +05:30 [INF] Route matched with {action = "GetCustomerDetails", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[E_Tour.Models.Customer]] GetCustomerDetails(System.String) on controller Etour.Controllers.CustomerController (E-Tour).
+2025-02-21 20:24:20.740 +05:30 [INF] Executing method: Etour.Controllers.CustomerController.GetCustomerDetails (E-Tour) in CustomerController
+2025-02-21 20:24:20.850 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[@__email_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`customerid`, `c`.`email`, `c`.`firstName`, `c`.`lastName`, `c`.`password`, `c`.`phoneNumber1`
+FROM `customer` AS `c`
+WHERE `c`.`email` = @__email_0
+LIMIT 1
+2025-02-21 20:24:20.906 +05:30 [INF] Finished executing method: Etour.Controllers.CustomerController.GetCustomerDetails (E-Tour) in CustomerController
+2025-02-21 20:24:20.921 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-21 20:24:20.956 +05:30 [INF] Executed action Etour.Controllers.CustomerController.GetCustomerDetails (E-Tour) in 235.2262ms
+2025-02-21 20:24:20.979 +05:30 [INF] Executed endpoint 'Etour.Controllers.CustomerController.GetCustomerDetails (E-Tour)'
+2025-02-21 20:24:20.983 +05:30 [INF] HTTP GET /api/customers/check/revankarsujeet@gmail.com responded 404 in 301.1188 ms
+2025-02-21 20:24:20.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/customers/check/revankarsujeet@gmail.com - 404 null application/problem+json; charset=utf-8 317.6116ms
+2025-02-21 20:24:21.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/itenary/booking - null null
+2025-02-21 20:24:21.115 +05:30 [INF] CORS policy execution successful.
+2025-02-21 20:24:21.119 +05:30 [INF] Executing endpoint 'Etour.Controllers.BookingController.GetCost (E-Tour)'
+2025-02-21 20:24:21.144 +05:30 [INF] Route matched with {action = "GetCost", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCost(Int32) on controller Etour.Controllers.BookingController (E-Tour).
+2025-02-21 20:24:21.159 +05:30 [INF] Executing method: Etour.Controllers.BookingController.GetCost (E-Tour) in BookingController
+2025-02-21 20:24:21.353 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__tourId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CostId`, `c`.`childWithBed`, `c`.`childWitoutBed`, `c`.`extraPersonCost`, `c`.`singlePersonCost`, `c`.`tourId`, `c`.`TwinSharingcost`, `t`.`tourid`, `t`.`durationDays`, `t`.`durationNights`, `t`.`imageurl`, `t`.`place`, `t`.`subcategoryMaster`, `t`.`tourname`
+FROM `costmaster` AS `c`
+INNER JOIN `tours` AS `t` ON `c`.`tourId` = `t`.`tourid`
+WHERE `t`.`tourid` = @__tourId_0
+LIMIT 1
+2025-02-21 20:24:21.420 +05:30 [INF] Finished executing method: Etour.Controllers.BookingController.GetCost (E-Tour) in BookingController
+2025-02-21 20:24:21.423 +05:30 [INF] Executing OkObjectResult, writing value of type 'Etour.DTO.CostMasterDTO'.
+2025-02-21 20:24:21.430 +05:30 [INF] Executed action Etour.Controllers.BookingController.GetCost (E-Tour) in 273.2965ms
+2025-02-21 20:24:21.436 +05:30 [INF] Executed endpoint 'Etour.Controllers.BookingController.GetCost (E-Tour)'
+2025-02-21 20:24:21.439 +05:30 [INF] HTTP GET /api/subcategory/1/tours/1/itenary/booking responded 200 in 324.4486 ms
+2025-02-21 20:24:21.446 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8086/api/subcategory/1/tours/1/itenary/booking - 200 null application/json; charset=utf-8 363.4896ms

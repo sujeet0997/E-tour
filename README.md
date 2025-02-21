@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<h1>E-TOUR 🌍</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>PLATFORM</h2>
+🖥 JAKARTA EE, .NET CORE, REACT JS, MySQL
 
-## Available Scripts
+⏳ Duration: 1 Month
 
-In the project directory, you can run:
+<h2>DESCRIPTION</h2>
 
-### `npm start`
+E-TOUR is a B2C WEB APPLICATION designed to streamline the operations of GROUP TOUR OPERATORS managing INTERNATIONAL, DOMESTIC, AND EVENT-BASED TOURS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔹 Users can browse/search for tours from various categories.<br>
+🔹 View comprehensive details such as itineraries, costs, and departure dates.<br>
+🔹 Book tours by adding passenger-wise details.<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This application leverages MODERN TECHNOLOGIES and is HIGHLY DATABASE-DRIVEN, offering FLEXIBILITY AND EASE OF MAINTENANCE.
+<h2>🌟 TECH STACK</h2>
 
-### `npm test`
+**Backend:**  <br>
+✅ Spring Framework 6 with Spring Boot 3<br>
+✅ Maven 3 for dependency management<br>
+✅ REST API for communication<br>
+✅ MySQL 8 with JPA for database management<br>
+✅ Docker for containerization<br>
+✅ JWT for authentication<br>
+✅ Microservices architecture<br> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Microsoft Stack:**<br>
+✅ .NET Core 8.0<br>
+✅ Web API Core 8.0<br>
+✅ SQL Server<br>
+✅ Entity Framework Core 8.0<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Frontend:**<br>
+✅ React JS 18<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**🚀 Features:**<br>
+✅ Browse and search tours from various categories.<br>
+✅ View detailed tour information, including:<br>
+ 
+ **🗺 Itinerary**<br>
+💰 Costs<br>
+📅 Departure Dates<br>
+✅ Book tours with passenger-wise details.<br>
+✅ Multi-language itinerary support (I18N) <br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Languages Supported: 🇬🇧 English, 🇮🇳 Hindi, 🇮🇳 Marathi, 🇫🇷 French, 🇪🇸 Spanish<br>
 
-### `npm run eject`
+**The Itinerary Page**<br>
+Supports I18N (Internationalization) for dynamic multi-language descriptions.<br>
+✅ Robust database-driven system ensuring flexibility and easy maintenance.<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**📥 Installation**
+🛠 Prerequisites<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure you have the following installed:<br>
+🔹 Java 17+<br>
+🔹 .NET SDK 8.0+<br>
+🔹 Node.js 18+<br>
+🔹 Docker<br>
+🔹 MySQL 8<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br><h2>**Screenshots**</h2><br>
+**HomePage**<br>
+![Image](https://github.com/user-attachments/assets/79350582-d132-4e5e-8dd5-728410625681)
+![Image](https://github.com/user-attachments/assets/e3edfc1f-b408-4d3a-8cd1-cbb61e97f647)
+![Image](https://github.com/user-attachments/assets/fd38377c-29c3-4ff6-8eaf-49d7a68c5361)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Subcategories
+![Image](https://github.com/user-attachments/assets/e140b01f-52e7-4e05-9db5-1dd0c2f8582c)
 
-## Learn More
+Tours
+![Image](https://github.com/user-attachments/assets/ec1b13db-f38f-47b3-9592-183ce930dd89)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Itinerary</h2><br>
+![Image](https://github.com/user-attachments/assets/aa107664-d0da-4790-abb9-235b46ba2e83)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Booking Details
+![Image](https://github.com/user-attachments/assets/04a6fc82-4340-42ba-aad6-b1b5be6be525)
 
-### Code Splitting
+Booking Summary
+![Image](https://github.com/user-attachments/assets/5ae3ef20-da2b-4331-8e37-7bfbed49b52b)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Payment
+![Image](https://github.com/user-attachments/assets/42bfe59e-a49c-4693-af79-6737bd25c5dc)
+![Image](https://github.com/user-attachments/assets/2bb363d9-b721-4136-b1a1-61a5206e3d98)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<br><br><h2>📌 STEPS TO RUN</h2>
+1️⃣ Clone the Repository<br>
+    git clone https://github.com/Rushikesh-264/e-tour.git<br>
+    cd e-tour<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>**2️⃣ Backend Setup (Spring Boot & .Net Core)**<br>
+🔹 For Java (Spring Boot) Backend:<br>
+    cd backend<br>
+    mvn clean install<br>
+    mvn spring-boot:run<br>
 
-### Advanced Configuration
+<br>**🔹 For .Net Core Backend:**<br>
+    cd backend-dotnet<br>
+    dotnet build<br>
+    dotnet run<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>**3️⃣ Frontedn Setup (React Js)**<br>
+    cd frontend
+    npm install  # Install dependencies
+    npm start    # Start the development server
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
